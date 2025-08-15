@@ -11,7 +11,7 @@ folder = input("Enter a folder name to save the visited URLs: ")
 
 os.makedirs(folder, exist_ok=True)
 
-MAX_WORKERS = 1000
+MAX_WORKERS = 100
 MAX_FILES = 1000
 
 def download_ts(n):
